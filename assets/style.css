@@ -1,70 +1,143 @@
-* {
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 
 body {
   
-  font-weight: 200;
+  font-weight: 500;
   font-size: 24px;
   font-family: 'Poppins', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #2e2f31;
   margin: 0px;
-
-  background-color: rgb(240, 240, 240);
-
+  background-image: url("images/TestBkg3.jpg");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #b7b7b7;
 }
 
 h2 {
 
-  font-weight: 700;
-  font-size: 38px;  
+  font-weight: bolder;
+  font-size: 32px; 
+  color: #343a40;
+  margin: 15px;   
 
 }
 
+.yuge {
+  font-weight: 900;
+}
 
-/*
-  The width of the wrapper will be 1024px
-  at browser widths above 768px
-*/
+.center {
+  text-align: center;
+}
+
+.jumbotron{
+  background: rgba(187, 187, 187, 0.5); 
+}
+
+#spaceten {
+  line-height: 80px;
+}
 .wrapper {
 
-  width: 1024px;
+  width: 1200px;
   margin: 40px auto;
 }
 
 #main-content,
 #sidebar {
-  /* Box-model */
-  width: 1024px;
-  padding: 30px;
+
+  width: 1200px;
+  padding: 0px;
 }
 
 #main-content {
 
   float: left;
-  background: rgb(240, 240, 240))
+  background: #b7b7b7;
 }
 
 #sidebar {
 
   float: right;
-  background: rgb(240, 240, 240);
+  background: #a9c9db17;
+  ;
 }
 
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-*/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
 
   body {
-    background-color: rgb(240, 240, 240)
+    background-color:#b7b7b7;
     text-align: center;
+    font-size: 18px;
   }
-  
 
-  /* The wrapper's width will be 600px */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
   .wrapper {
     width: 600px;
   }
+}
+
+  @media screen and (max-width: 992px) {
+
+    body {
+      background-color:#b7b7b7;
+      text-align: center;
+      font-size: 22px;
+    }
+  
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+    
+  
+
+    .wrapper {
+      width: 800px;
+    }
 }
