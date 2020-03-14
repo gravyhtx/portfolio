@@ -165,6 +165,7 @@ a:visited {
     width: 350px;
     min-width: 350px;
     display: inline-block;
+    justify-content: center;
   }
 
 }
