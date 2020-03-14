@@ -166,6 +166,10 @@ a:visited {
     justify-content: center;
   }
 
+  .about {
+    font-size: 12px;
+  }
+
 }
 
 main > .container {
