@@ -23,153 +23,86 @@
 </head>
 
     <body>
-            
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo for tees pastel rasta.png" alt="Logo" style="width:180px;"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-
-                    
-                    <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
-                    <a class="nav-item nav-link" href="about.html">about</a>
-                    <a class="nav-item nav-link" href="contact.html">contact</a>
-                  
-
-                </div>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo for tees pastel rasta.png" alt="Logo" style="width:180px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">  
+                <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+                <a class="nav-item nav-link" href="contact.html">contact</a>
+            </div>
+            </div>
         </nav>
 
-        <main class="container-fluid">  
+    <main class="container-fluid">  
+    </br>
+    <div class="container-fluid jumbotron center"> <div style="padding: 0px;">    
+        <h3><div style="font-size: 80px;">Let's talk.</div></h3>
+        </br></br>
+
+    <form>
+
+        <!-- name + company -->
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name"><b>Name</b></label>
+                <input type="name" class="form-control" id="company">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="company"><b>Company</b></label>
+                <input type="company" class="form-control" id="company">
+            </div>
+            </div>
+
+
+        <!-- email -->
+
+        <div class="form-group">
+            <label for="email"><b>Email</b></label>
+            <input type="email" class="form-control" id="email">
+        </div>
+
+        <label class="my-1 mr-2" for="service"><b>Service</b></label>
+
+        <select class="custom-select my-1 mr-sm-2" id="service">
+        
+            <option selected>Choose...</option>
+            <option value="1">Graphic Design</option>
+            <option value="2">Web Design</option>
+            <option value="3">Product Design</option>
+            <option value="4">Other</option>
+
+        </select>
+
+        </br></br>
+        <div class="form-group">
+            <label for="description"><b>Please give us a brief description of your project...</b></label>
+            <textarea class="form-control" id="description" rows="3"></textarea>
+        </div>
+
+        </br></br>
+
+        <!-- Submit -->
+        <div class="center">
+        <button type="submit" class="btn btn-lg btn-dark"><b>submit</b></button>
+        </div>
 
         </br>
-
-        <div class="container-fluid"> <div style="padding: 0px;"> 
-
-
- 
-
-            <div class="jumbotron">
-        
-            <div class="center">     
-                
-                <h3><div style="font-size: 80px;">Let's talk.</div></h3>
-            </div>
-            
-        </br></br>
-     
-        <form>
-            
-
-            <!-- name + company -->
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name"><b>Name</b></label>
-                  <input type="name" class="form-control" id="company">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="company"><b>Company</b></label>
-                  <input type="company" class="form-control" id="company">
-                </div>
-              </div>
-
-
-            <!-- email -->
-
-            <div class="form-group">
-                <label for="email"><b>Email</b></label>
-                <input type="email" class="form-control" id="email">
-            </div>
-
-
-            <!-- service -->
-        
-        <!-- <b> What service are you inquiring about? </b> -->
-
-            
-       
-            <label class="my-1 mr-2" for="service"><b>Service</b></label>
-
-            <select class="custom-select my-1 mr-sm-2" id="service">
-            
-              <option selected>Choose...</option>
-              <option value="1">Graphic Design</option>
-              <option value="2">Web Design</option>
-              <option value="3">Product Design</option>
-              <option value="4">Other</option>
-
-            </select>
-<!-- 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="service" id="service1" value="option1" checked>
-                <label class="form-check-label" for="service1">
-                  Graphic Design
-                </label>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="service" id="service2" value="option2">
-                <label class="form-check-label" for="service2">
-                  Web Design
-                </label>
-            </div>
-
-            <div class="form-check">
-                    <input class="form-check-input" type="radio" name="service" id="service3" value="option3">
-                <label class="form-check-label" for="service3">
-                  Product Design
-                </label>
-            </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="service" id="service4" value="option4">
-                <label class="form-check-label" for="service4">
-                    Other
-                </label>
-            </div>
-        -->
-    </br>        </br>
-            <!-- description -->
-
-        
-            <div class="form-group">
-                <label for="description"><b>Please give us a brief description of your project...</b></label>
-                <textarea class="form-control" id="description" rows="3"></textarea>
-            </div>
-
-        </br></br>
-
-            <!-- Submit -->
-
-            <div class="center">
-            <button type="submit" class="btn btn-lg btn-dark"><b>submit</b></button>
-            </div>
-</br>
-        </form>
-        
-
-    </div>
-        </div>
-        </div>
-        </div>
-        </main>
-
+    </form>
+    </main>
     </br></br>
     <div class="container-fluid"> 
-
         <footer class="page-footer">
-
-          <div style="text-align: center; padding: 20px;">
-            <div class="boxed">
-                
-              <span class="text-muted">copyright © MMXX grävy design co.</span>
-            
-            </div>
-          </div>
-      </footer>
+        <div class="boxed" style="text-align: center; padding: 20px;">  
+            <span class="text-muted">copyright © MMXX grävy design co.</span>
+        </div>
+        </footer>
     </div>
+    <br>
 
 
               <!-- JavaScript Links -->
