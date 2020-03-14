@@ -22,6 +22,12 @@ body {
   letter-spacing: 12px;
 }
 
+.left-logo {
+  /* margin-top: 10px; */
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
 h1 {
   font-family: 'Poppins', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
@@ -135,7 +141,7 @@ a:visited {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
 
   body {
     background-color:#b7b7b7;
@@ -156,8 +162,8 @@ a:visited {
   }
 
   #sci {
-    width: 500px;
-    min-width: 500px;
+    width: 350px;
+    min-width: 350px;
     display: inline-block;
   }
 
