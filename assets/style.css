@@ -18,6 +18,11 @@ body {
   background-color: #b7b7b7;
 }
 
+ul {
+  align-items: center;
+  margin-left: -42px;
+}
+
 .sp {
   letter-spacing: 12px;
 }
@@ -54,6 +59,7 @@ h4 {
 
 .center {
   text-align: center;
+  display: inline-block;
 }
 
 .jumbotron{
